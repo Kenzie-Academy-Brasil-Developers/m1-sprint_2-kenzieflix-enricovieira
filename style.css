@@ -10,7 +10,7 @@ html,body,div,header,ul,li,button,img,span{
     background: none;
 }
 body{
-    height: 100%;
+   height: 100%;
    width: 100%;
    background-color: #000000;
 }
@@ -109,4 +109,43 @@ span{
     background-color:#ffffff ;
     color: #000000;
     transition: 0.5s;
+}
+
+#card_perfil{
+    width: 100%;
+    height: 160px;
+    background-color:#1E1E20 ;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.perfil{
+    border:solid 5.4px #9C9C9C;
+    width: 59px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto auto;
+    color: #9C9C9C;
+    font-size: 1.4cm;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_perfil{
+  height: 100%;
+  align-items: flex-end;
+}
+
+li:hover .perfil{
+    color: #ffffff;
+    border: solid 5.4px #ffffff;
+    transition: 0.3s;
+}
+
+.perfil_texto{
+    margin-top: 4px;
 }
