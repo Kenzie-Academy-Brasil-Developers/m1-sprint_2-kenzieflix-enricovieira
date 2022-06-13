@@ -149,3 +149,8 @@ li:hover .perfil{
 .perfil_texto{
     margin-top: 4px;
 }
+
+#card_perfil:hover{
+    border:solid 1px #ffffff;
+    transition: 0.3s;
+}
